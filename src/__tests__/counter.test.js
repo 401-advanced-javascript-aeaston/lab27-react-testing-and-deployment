@@ -13,16 +13,16 @@ describe('<Counter />', () => {
 
   it('it decrements on a down click', () => {
     let component = mount(<Counter />);
-    let button = component.find('down clicker');
+    let button = component.find('.downclicker');
     button.simulate('click');
-    expect(component.state('stuff')).toBe(true);
+    expect(component.state('count')).toBe(-1);
   });
 
   it('increments on an up click', () => {
     let component = mount(<Counter />);
-    let button = component.find('up clicker');
+    let button = component.find('.upclicker');
     button.simulate('click');
-    expect(component.state('stuff')).toBe(true);
+    expect(component.state('count')).toBe(+1);
   });
 
   // it('renders the correct text', () => {

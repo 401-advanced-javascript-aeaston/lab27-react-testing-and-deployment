@@ -1,15 +1,13 @@
 # lab27-react-testing-and-deployment
 
-# LAB - 
+# LAB - 27
 
-## Project Name
+## React Testing and Deployment
 
-### Author: Student/Group Name
+### Author: Adrienne Easton
 
 ### Links and Resources
 * [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
 * [front-end](http://xyz.com) (when applicable)
 
 #### Documentation

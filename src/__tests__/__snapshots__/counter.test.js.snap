@@ -5,7 +5,7 @@ exports[`<Counter /> renders correctly 1`] = `
   className="counter"
 >
   <a
-    className="down clicker"
+    className="downclicker"
     href="#"
     onClick={[Function]}
   >
@@ -17,7 +17,7 @@ exports[`<Counter /> renders correctly 1`] = `
     0
   </span>
   <a
-    className="up clicker"
+    className="upclicker"
     href="#"
     onClick={[Function]}
   >
