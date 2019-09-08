@@ -25,16 +25,20 @@ describe('<Counter />', () => {
     expect(component.state('count')).toBe(+1);
   });
 
-  it('renders the correct text for decrement', () => {
+  it('displays the correct text for decrement', () => {
     let component = mount(<Counter />);
+    let button = component.find('.downclicker');
+    button.simulate('click');
     let displayElement = component.find('span');
-    expect(displayElement.text()).toContain('count');
+    expect(displayElement.text()).toContain(-1);
   });
 
-  it('renders the correct text for increment', () => {
+  it('displays the correct text for increment', () => {
     let component = mount(<Counter />);
+    let button = component.find('.upclicker');
+    button.simulate('click');
     let displayElement = component.find('span');
-    expect(displayElement.text()).toContain('count');
+    expect(displayElement.text()).toContain(+1);
   });
 
   it('renders correctly', () => {
