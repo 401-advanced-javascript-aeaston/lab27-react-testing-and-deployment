@@ -25,12 +25,17 @@ describe('<Counter />', () => {
     expect(component.state('count')).toBe(+1);
   });
 
-  // it('renders the correct text', () => {
-  //   let component = mount(<Counter />);
-  //   let button = component.find('button');
-  //   button.simulate('click');
-  //   expect(component.find('section')).text.toContain('true');
-  // });
+  it('renders the correct text for decrement', () => {
+    let component = mount(<Counter />);
+    let displayElement = component.find('span');
+    expect(displayElement.text()).toContain('count');
+  });
+
+  it('renders the correct text for increment', () => {
+    let component = mount(<Counter />);
+    let displayElement = component.find('span');
+    expect(displayElement.text()).toContain('count');
+  });
 
   it('renders correctly', () => {
     const tree = renderer.create(<Counter />).toJSON();

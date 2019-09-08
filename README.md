@@ -1,5 +1,3 @@
-# lab27-react-testing-and-deployment
-
 # LAB - 27
 
 ## React Testing and Deployment
@@ -7,42 +5,41 @@
 ### Author: Adrienne Easton
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
+* [submission PR](https://github.com/401-advanced-javascript-aeaston/lab27-react-testing-and-deployment/pull/1)
 * [netlify](https://inspiring-golick-212f68.netlify.com)
 * [AWS S3](http://ae-react-testing-and-deployment.s3-website-us-west-2.amazonaws.com)
-* [front-end](http://xyz.com) (when applicable)
-
-#### Documentation
-* [api docs](http://xyz.com) (API servers)
-* [jsdoc](http://xyz.com) (Server assignments)
-* [styleguide](http://xyz.com) (React assignments)
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+#### `index.js`
 
-###### `bar(array) -> array`
-Usage Notes or examples
+entry point
 
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+#### `app.js`
+
+pulls all the modules togethor
+
+#### `header.js`
+
+Header
+
+#### `counter.js`
+
+This keeps track of count when teh user clicks to increment or decerement.
+
+#### `footer.js`
+
+copyright
 
 #### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
-  
+
+locally - live-server build
+see links and resources above for deployment links
+
 #### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+
+npm test
 
 #### UML
+
 Link to an image of the UML for your application and response to events
