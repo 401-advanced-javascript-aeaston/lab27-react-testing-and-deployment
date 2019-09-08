@@ -8,6 +8,8 @@
 
 ### Links and Resources
 * [submission PR](http://xyz.com)
+* [netlify](https://inspiring-golick-212f68.netlify.com)
+* [AWS S3](http://ae-react-testing-and-deployment.s3-website-us-west-2.amazonaws.com)
 * [front-end](http://xyz.com) (when applicable)
 
 #### Documentation
